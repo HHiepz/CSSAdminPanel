@@ -11,8 +11,7 @@
 | Class mặc định | Class kèm theo | Mô tả |
 |----------------|--------------------|------|
 | `.card`        | `.card-custom-box` & `.hrt-custom-box` | Màu viền trên |
-| | `.dark` `.primary` `.success`,... | Lựa chọn màu |
-- Thêm màu sắc khác `.dark` `.success` `.warning` `.danger` `.info`
+| |`.primary` `.secondary` `.success` `.warning` `.danger` `.info` | Lựa chọn màu |
 
 ```html
 <div class="card card-custom-box hrt-custom-box primary">
