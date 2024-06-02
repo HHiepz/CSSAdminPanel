@@ -1,35 +1,26 @@
-# CSSAdminPanel Phiên bản 1 - Sử dụng để tạo thiết kế giao diện Quản Trị.
+# CSSAdminPanel Phiên bản 1 - Sử dụng để tạo thiết kế giao diện quản trị.
 ## Hướng Dẫn Sử Dụng
 Để kết hợp kiểu CSS tùy chỉnh vào dự án của bạn, hãy làm theo bước đơn giản sau:
 
-- Liên kết tệp CSS (`index.css`).
-- Không cần liên kết tệp **CSS** của Bootstrap (Đang sử dụng phiên bản `Bootstrap.v5.3.3`) vì tôi đã kết nối chúng.
+- Liên kết tệp CSS `index.css`.
+- **Không cần liên kết tệp CSS của Bootstrap** (Phiên bản tôi sử dụng `Bootstrap.v5.3.3`) vì tôi đã kết nối chúng.
 - Cần liên kết JS của Bootstrap và sử dụng như bình thường.
 
-## Mở Rộng
+## Các Phần Mở Rộng
 
 | Class mặc định | Class kèm theo | Mô tả |
 |----------------|--------------------|------|
-| `.card`        | `.card-custom-box` & `.hrt-custom-box` | Tạo viền màu phần Top |
+| `.card`        | `.card-custom-box` & `.hrt-custom-box` | Màu viền trên |
+| | `.dark` `.primary` `.success`,... | Lựa chọn màu |
 - Thêm màu sắc khác `.dark` `.success` `.warning` `.danger` `.info`
 
 ```html
-<div class="card card-custom-box hrt-custom-box dark">
+<div class="card card-custom-box hrt-custom-box primary">
     <div class="card-body">
-        <div class="d-flex align-items-top">
-            <div class="me-3">
-                <span class="avatar bg-dark">
-                    <i class="bi bi-person-fill"></i>
-                </span>
-            </div>
-            <div class="flex-fill">
-                <p class="card-title">Thành viên đăng ký</p>
-                <h5 class="card-text">100</h5>
-                <span class="badge bg-dark">New!</span>
-            </div>
-        </div>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis corrupti nostrum quaerat
     </div>
 </div>
+
 ```
 
 ## Nhật Ký Thay Đổi
