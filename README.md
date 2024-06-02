@@ -10,7 +10,12 @@
 
 | Class mặc định | Class kèm theo | Mô tả |
 |----------------|--------------------|------|
-| `.card`        | `.card-custom-box` & `.hrt-custom-box` | Màu viền trên |
+| `.card`        | `.card-custom-box` & `.hrt-custom-box` | Tô màu viền TOP |
+| | `.card-custom-box` & `.hrb-custom-box` | Tô màu viền BOTTOM |
+| | `.card-custom-box` & `.hrs-custom-box` | Tô màu viền LEFT |
+| | `.card-custom-box` & `.hre-custom-box` | Tô màu viền RIGHT |
+| | `.card-custom-box` & `.hrx-custom-box` | Tô màu viền LEFT - RIGHT |
+| | `.card-custom-box` & `.hry-custom-box` | Tô màu viền TOP - BOTTOM |
 | |`.primary` `.secondary` `.success` `.warning` `.danger` `.info` | Lựa chọn màu |
 
 ```html
