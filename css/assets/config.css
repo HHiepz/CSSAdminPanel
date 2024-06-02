@@ -1,0 +1,19 @@
+/* Điều chỉnh mã màu */
+:root {
+    --primary-color: #A91D3A;
+    --secondary-color: #C73659;
+    --background-dark-color: #151515;
+    --background-light-color: #EEEEEE;
+
+    --success-color: #28A745;
+    --danger-color: #DC3545;
+    --warning-color: #f5b849;
+    --info-color: #17A2B8;
+
+    --text-dark-color: var(--background-dark-color);
+    --text-light-color: var(--background-light-color);
+    --text-success-color: var(--success-color);
+    --text-danger-color: var(--danger-color);
+    --text-warning-color: var(--warning-color);
+    --text-info-color: var(--info-color);
+}

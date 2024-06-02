@@ -1,0 +1,47 @@
+.btn {
+    background-color: var(--background-light-color);
+    border-color: var(--background-light-color);
+    color: var(--text-dark-color);
+}
+
+.btn.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn.btn-secondary {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+
+.btn.btn-success {
+    background-color: var(--success-color);
+    border-color: var(--success-color);
+}
+
+.btn.btn-danger {
+    background-color: var(--danger-color);
+    border-color: var(--danger-color);
+}
+
+.btn.btn-warning {
+    background-color: var(--warning-color);
+    border-color: var(--warning-color);
+}
+
+.btn.btn-info {
+    background-color: var(--info-color);
+    border-color: var(--info-color);
+}
+
+.btn.btn-light {
+    background-color: var(--background-light-color);
+    border-color: var(--background-light-color);
+    color: var(--text-dark-color);
+}
+
+.btn.btn-dark {
+    background-color: var(--background-dark-color);
+    border-color: var(--background-dark-color);
+    color: var(--text-light-color);
+}

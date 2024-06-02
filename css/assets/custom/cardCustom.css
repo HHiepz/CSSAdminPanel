@@ -1,0 +1,27 @@
+.card-custom-box.hrt-custom-box {
+    border-top: 5px solid #333;
+}
+
+.card-custom-box.hrt-custom-box.primary {
+    border-top: 5px solid var(--primary-color);
+}
+
+.card-custom-box.hrt-custom-box.secondary {
+    border-top: 5px solid var(--secondary-color);
+}
+
+.card-custom-box.hrt-custom-box.success {
+    border-top: 5px solid var(--success-color);
+}
+
+.card-custom-box.hrt-custom-box.danger {
+    border-top: 5px solid var(--danger-color);
+}
+
+.card-custom-box.hrt-custom-box.warning {
+    border-top: 5px solid var(--warning-color);
+}
+
+.card-custom-box.hrt-custom-box.info {
+    border-top: 5px solid var(--info-color);
+}
